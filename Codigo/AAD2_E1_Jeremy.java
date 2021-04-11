@@ -4,7 +4,7 @@ public class AAD2_E1_Jeremy{
 
     public static void main (String[] args)
     {
-        
+        //Version 2.0
 
         //Se necesita siempre esta inicialización-
         //para obtener valores ingresados por usuario en consola

@@ -70,7 +70,7 @@ public class AAD4_E1_Jeremy{
 		while (numerotemp >0)
 		{
 			// Resto = Obtener el Resto de la división NúmeroTemp  / 10
-			resto = numerotemp % 10;
+			resto = (int)(numerotemp % 10);
 				// Si el Resto = Número a contabilizar
 				if (resto == numeroacontabilizar)
 				{

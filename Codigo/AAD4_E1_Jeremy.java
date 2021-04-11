@@ -28,9 +28,11 @@ public class AAD4_E1_Jeremy{
         numeroacontabilizar= sc.nextInt();
 		
 		// Contar la cantidad total de dígitos
+        System.out.println("Se está ingresando al método ContarDigitos()");
 		int temporalContarDigitos = ContarDigitos(numero);
 		System.out.println("cantidad total de dígitos: "+temporalContarDigitos);
 		// Contar la cantidad de números repetidos de acuerdo al dígito indicado.
+        System.out.println("Se está ingresando al método ContarNumerosRepetidos()");
 		int temporalContarNumerosRepetidos = ContarNumerosRepetidos(numero,numeroacontabilizar);
 		System.out.println("cantidad de números repetidos de acuerdo al dígito indicado: "+temporalContarNumerosRepetidos);
 
@@ -46,6 +48,7 @@ public class AAD4_E1_Jeremy{
 		// Mientras que haya el NúmeroTemp >0 
 		while (numerotemp >0)
 		{
+			System.out.println("Se ha entrado al while");
 			// NúmeroTemp  = NúmeroTemp  / 10
 			numerotemp = numerotemp /10;
 			// Contador = Contador + 1
@@ -69,6 +72,7 @@ public class AAD4_E1_Jeremy{
 		// Mientras que el NúmeroTemp >0
 		while (numerotemp >0)
 		{
+			System.out.println("Se ha entrado al while");
 			// Resto = Obtener el Resto de la división NúmeroTemp  / 10
 			resto = (int)(numerotemp % 10);
 				// Si el Resto = Número a contabilizar
